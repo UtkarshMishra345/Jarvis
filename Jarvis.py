@@ -583,3 +583,19 @@ if __name__ == "__main__":
             answer = next(res.results).text
 
             print(answer)
+            
+        elif "search google" in query:
+            while True:
+                try:
+                    from googlesearch import search
+                except ImportError:
+                    print("No module named 'google' found")
+
+                # to search
+                query = input("Enter query...")
+
+                if 'no' in query:
+                    break
+
+                for j in search(query, tld="co.in", num=10, stop=10, pause=2):
+                    print(j)
