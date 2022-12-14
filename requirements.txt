@@ -1,0 +1,27 @@
+pyautogui
+pyttsx3
+speech_recognition as sr
+datetime
+os
+pyjokes
+pyaudio
+requests
+smtplib
+webbrowser
+time
+wikipedia
+beautifulsoup4
+pywikihow
+psutil
+speedtest
+pywhatkit 
+sys  
+tkinter
+pytube
+playsound
+keyboard
+googletrans
+wolframalpha
+phonenumbers
+google
+googlesearch
